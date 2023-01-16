@@ -6,3 +6,5 @@
 * Adria Gil Sorribes <adria.gil@forgeflow.com>
 * Phuc (Tran Thanh) <phuc@trobz.com>
 * Manuel Regidor <manuel.regidor@sygel.es>
+* `Trobz <https://trobz.com>`_:
+    * Son Ho <sonhd@trobz.com>
