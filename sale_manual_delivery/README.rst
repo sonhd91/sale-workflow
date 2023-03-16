@@ -19,9 +19,9 @@ Sale Manual Delivery
 .. |badge4| image:: https://img.shields.io/badge/weblate-Translate%20me-F47D42.png
     :target: https://translation.odoo-community.org/projects/sale-workflow-16-0/sale-workflow-16-0-sale_manual_delivery
     :alt: Translate me on Weblate
-.. |badge5| image:: https://img.shields.io/badge/runbot-Try%20me-875A7B.png
-    :target: https://runbot.odoo-community.org/runbot/167/16.0
-    :alt: Try me on Runbot
+.. |badge5| image:: https://img.shields.io/badge/runboat-Try%20me-875A7B.png
+    :target: https://runboat.odoo-community.org/webui/builds.html?repo=OCA/sale-workflow&target_branch=16.0
+    :alt: Try me on Runboat
 
 |badge1| |badge2| |badge3| |badge4| |badge5| 
 
@@ -33,17 +33,22 @@ As you make many shipments, every time you make a new delivery, you can choose a
 as a planned date. A wizard helps you to chose what to deliver by showing you how much you already
 planned to ship.
 
-.. image:: https://raw.githubusercontent.com/OCA/sale-workflow/16.0/sale_manual_delivery/static/description/field.png
-   :alt: Field
-   :width: 500 px
-.. image:: https://raw.githubusercontent.com/OCA/sale-workflow/16.0/sale_manual_delivery/static/description/wizard.png
-   :alt: Wizard
-   :width: 500 px
-
 **Table of contents**
 
 .. contents::
    :local:
+
+Usage
+=====
+
+**Demo:**
+
+
+  .. image:: https://raw.githubusercontent.com/OCA/sale-workflow/16.0/sale_manual_delivery/static/description/field.png
+
+The create picking wizard:
+
+  .. image:: https://raw.githubusercontent.com/OCA/sale-workflow/16.0/sale_manual_delivery/static/description/wizard.png
 
 Bug Tracker
 ===========
