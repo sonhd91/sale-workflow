@@ -9,7 +9,10 @@ class SaleOrder(models.Model):
 
     def action_confirm(self):
         for order in self:
-            if order.company_id.sale_auto_remove_zero_quantity_lines:
+            if (
+                order.company_id.sale_auto_remove_zero_quantity_lines
+                and not order.origin_exchange_type_id
+            ):
                 zero_lines = order.order_line.filtered(
                     lambda line: line.product_uom_qty == 0
                 )
